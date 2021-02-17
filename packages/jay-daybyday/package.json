@@ -1,5 +1,5 @@
 {
-  "name": "jay-gpnode",
+  "name": "jay-daybyday",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
@@ -9,5 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "1d797d25601a69a956412bd71f907dab3736f493"
+  "gitHead": "cd1f9ef905b432cc8af709187e855f26e38cdb70"
 }
