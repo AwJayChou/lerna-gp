@@ -1,5 +1,5 @@
 {
-  "name": "gpnode",
+  "name": "jay-gpnode",
   "version": "0.0.2-alpha.0",
   "description": "",
   "main": "index.js",
@@ -9,5 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "105477896b047eec48b0f5c0b8b814fc57a1a8e8"
+  "gitHead": "1d797d25601a69a956412bd71f907dab3736f493"
 }
