@@ -1,11 +1,16 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "link-nd": "node packages/jay-gpnode",
+    "link-wp": "node packages/jay-gpwebpack"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "examples/*"
   ],
   "publishConfig": {
     "access": "public"
