@@ -1,13 +1,13 @@
 {
   "name": "@jay/gpnode",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@jay/gpwebpack": "^0.0.6",
+    "@jay/gpwebpack": "^0.0.7",
     "cross-env": "^7.0.3",
     "lodash": "^4.17.21"
   },
