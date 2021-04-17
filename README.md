@@ -3,7 +3,7 @@
 ### 内部packages相互依赖
 lerna link
 
-添加公共依赖
+### 添加公共依赖
 假设 moduleA 和 moduleB 都依赖 lodash
 lerna add lodash
 添加单独依赖
