@@ -8,8 +8,12 @@ lerna link
 lerna add lodash
 添加单独依赖
 假设moduleA 自己依赖 jquery，moduleB 自己依赖 zepto
+
+```javascript
 lerna add jquery --scope=@fengyinchao/modulea
 lerna add zepto --scope=@fengyinchao/moduleb
+```
+
 注意 scope 的值对应的是 package.json 中的 name 字段
 重要：添加packages里其它模块作为自己的依赖
 假设moduleA 依赖 moduleB
