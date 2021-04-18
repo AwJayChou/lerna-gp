@@ -17,8 +17,10 @@ lerna add zepto --scope=@fengyinchao/moduleb
 #### 注意 scope 的值对应的是 package.json 中的 name 字段
 #### 重要：添加packages里其它模块作为自己的依赖
 假设moduleA 依赖 moduleB
+```javascript
 lerna add @fengyinchao/moduleb --scope=@fengyinchao/modulea
 lerna link // 不执行会报错
+```
 注意这种依赖不会添加到 moduleA 的 node_modules 里，但会添加到 moduleA 的 package.json 中，它会自动检测到 @fengyinchao/moduleb 隶属于当前项目，直接采用symlink的方式关联过去
 全 package 发布
 lerna publish
