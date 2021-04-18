@@ -14,8 +14,8 @@ lerna add jquery --scope=@fengyinchao/modulea
 lerna add zepto --scope=@fengyinchao/moduleb
 ```
 
-注意 scope 的值对应的是 package.json 中的 name 字段
-重要：添加packages里其它模块作为自己的依赖
+#### 注意 scope 的值对应的是 package.json 中的 name 字段
+#### 重要：添加packages里其它模块作为自己的依赖
 假设moduleA 依赖 moduleB
 lerna add @fengyinchao/moduleb --scope=@fengyinchao/modulea
 lerna link // 不执行会报错
